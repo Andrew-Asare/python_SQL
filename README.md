@@ -9,6 +9,9 @@
 
 
 - Use `pip install pyodbc`
+- Use the below to install driver 17
+- https://docs.microsoft.com/en-gb/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver15 
+
 ```python
 # To establish connection between python and SQL we will use PYODBC
 
@@ -74,3 +77,7 @@ Create two files `nw_products.py` & `nw_runner.py` and then we will move into cr
 APPLY OOP - DRY CRUD WHERE POSSIBLE
 ```
 
+# Helpful links to debug PYODBC installation
+https://packages.microsoft.com/ubuntu/20.04/prod/pool/main/m/msodbcsql17/
+https://packages.microsoft.com/ubuntu/18.04/prod/pool/main/m/msodbcsql17/
+https://docs.microsoft.com/en-gb/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver15
